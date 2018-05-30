@@ -48,18 +48,18 @@ html body {
 
 .photo-banner {
     background: url('../img/banner.png') fixed 100% 0;
-    height: 110px;
+    height: 310px;
     overflow: hidden;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.18) !important;
     padding-bottom: 20px;
-    opacity: 0.8;
+    opacity: 0.3;
 }
 
 .featured-projects {
-	color: white;
+	color: #666756;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	padding-top: 60px;
+	padding-top: 20px;
 	padding-left: 10px;
 	font-weight: 800;
 	text-align: left;
@@ -67,7 +67,7 @@ html body {
 }
 
 .projects-row {
-   padding-top: 50px;
+   padding-top: 30px;
    padding-bottom: 10px;
 
 }
