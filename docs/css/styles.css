@@ -12,10 +12,13 @@ html body {
  div {
     display: block;
 }
-.navbar-brand {
-  width:  100px;
-      overflow: hidden;
+
+.n {
+ 	line-height: 20px;
+ 	 padding-top: 10px;
+ padding-bottom: 10px;
 }
+
 
 .t {
 	padding-top: 80px;
