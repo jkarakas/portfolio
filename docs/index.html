@@ -40,45 +40,108 @@
 	  <link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
+					<main>
+<!-- 		FIXED NAVBAR-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">IKB</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav ">
+		        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Blog</a></li>
+<!-- 		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Home</a></li>
+		            <li><a href="#">Blog</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul> -->
+		        </li>
+		      </ul>
+		     
+		      <ul class="nav navbar-nav navbar-right">
+<!-- 		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li> -->
+		        <form class="navbar-form navbar-left">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search">
+		        </div>
+		        <button type="submit" class="btn btn-default">Submit</button>
+		      </form>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!-- LOGO AND NAME              -->
 		<div class="container">
-			<nav class="navbar navbar-default bg-1">
-		  	 	<div class="navbar-header logo">
+			
+
+			
+
+				<nav class="navbar navbar-default t bg-1">
+					<div class="navbar-header logo">
 		        	<a class="navbar-left" href="#"><img alt="IKB Logo" src="img/ikbreier.png" width=150></a>
 		   		</div><!--logo-->
 			    <div class="nav-wrapper nav-text">
 					<h1 class= "name text-thin">Ioannis K Breier</h1>
 					<h3 class= "description">Data Science and Analytics Developer</h3>
 				</div>  <!--Name-->
-			</nav>
-			<main>
+				</nav>
 					<header class= "photo-banner">
-					</header>
 					<div class="text-center projects"> 
 					  <h3 class="featured-projects">Featured Work</h3>
+				    
+					</header>
+
 
 
 					  <div class="row projects-row">
 
 					    <div class="col-sm-4">
 					    	<div class="project">
-					    		<a  href="https://github.com/jkarakas/Wrangle-OpenStreetMaps-Data-with-SQL" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Wrangle-OpenStreetMaps-Data-with-SQL/ea059bfe/Metro-Extracts_Warsaw.png" width= 200 height= 200 alt="Metro-Extracts_Warsaw"></a>
-					            <h3 class="project-title">Wrangle OpenStreetMap Data</h3>
+<!-- 					    		<h3 class="project-title">Wrangle OpenStreetMap Data</h3> -->
+					    		<a  href="https://github.com/jkarakas/Wrangle-OpenStreetMaps-Data-with-SQL" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Wrangle-OpenStreetMaps-Data-with-SQL/ea059bfe/Metro-Extracts_Warsaw.png"  class="img-rounded project-img" alt="Metro-Extracts_Warsaw"></a>
+					            
 					      		<a class="project-description" href="https://github.com/jkarakas/Wrangle-OpenStreetMaps-Data-with-SQL" target="_blank">OpenStreetMap Data Wrangling and Querying with Python and SQL</a>
 					      	</div> <!--project-->
 					  	</div><!--column-->
 
 					    <div class="col-sm-4">
 					    	<div class="project">
-					      		<a href="https://github.com/jkarakas/Explore-and-Summarize-Data" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Explore-and-Summarize-Data/7f99d0ba/map.png" width= 200 height= 200 alt="map viz"></a>
-					      		<h3 class="project-title">Explore E-commerce Data</h3>
+					      		<a href="https://github.com/jkarakas/Explore-and-Summarize-Data" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Explore-and-Summarize-Data/7f99d0ba/map.png" class="img-rounded project-img" alt="map viz"></a>
+<!-- 					      		<h3 class="project-title">Explore E-commerce Data</h3> -->
 					      		<a class="project-description" href="https://github.com/jkarakas/Explore-and-Summarize-Data" target="_blank">Explore and Summarize E-commerce Data with R</a>
 					      	</div> <!--project-->
 					  	</div><!--column-->
 
 					  	    <div class="col-sm-4">
 					    	<div class="project">
-					    		<a href="https://public.tableau.com/profile/ioanniskbreier#!/vizhome/who_life_expect_story_final/EuropeanStory" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Create-a-Tableau-Story-/cc205e05/screenshots/version4.png" width= 200 height= 200 alt="Tableau-Project_Warsaw"></a>
-					            <h3 class="project-title">Visualize Life Expectancy </h3>
+					    		<a href="https://public.tableau.com/profile/ioanniskbreier#!/vizhome/who_life_expect_story_final/EuropeanStory" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Create-a-Tableau-Story-/cc205e05/screenshots/version4.png" class="img-rounded project-img" alt="Tableau-Project_Warsaw"></a>
+<!-- 					            <h3 class="project-title">Visualize Life Expectancy </h3> -->
 					      		<a class="project-description" href="https://public.tableau.com/profile/ioanniskbreier#!/vizhome/who_life_expect_story_final/EuropeanStory" target="_blank">The European life expectancy story visualized with Tableau</a>
 					      	</div> <!--project-->		
 					    </div><!--column-->
@@ -86,11 +149,11 @@
 					  </div><!--row-->
 
 
-					  	<div class="row projects-row">
+					  	<div class="row">
 						<div class="col-sm-4"> 
 					    	<div class="project">
-					     		<a  href="https://github.com/jkarakas/Identify-Fraud-from-Enron-Email" target="_blank"><img src="https://camo.githubusercontent.com/8f1273d7c412d9d41a799cc97ffc5a7c7481970b/68747470733a2f2f63646e2e746563686e6f6c6f67797265766965772e636f6d2f692f696d616765732f656e726f6e783239392e6a70673f73773d363830" width= 200 alt="Enron"></a>
-			              		<h3 class="project-title">Detect Fraud</h3>
+					     		<a  href="https://github.com/jkarakas/Identify-Fraud-from-Enron-Email" target="_blank"><img src="https://camo.githubusercontent.com/8f1273d7c412d9d41a799cc97ffc5a7c7481970b/68747470733a2f2f63646e2e746563686e6f6c6f67797265766965772e636f6d2f692f696d616765732f656e726f6e783239392e6a70673f73773d363830" class="img-rounded project-img" alt="Enron"></a>
+<!-- 			              		<h3 class="project-title">Detect Fraud</h3> -->
 					      		<a class="project-description" href="https://github.com/jkarakas/Identify-Fraud-from-Enron-Email" target="_blank">Use Machine Learning to Identify Fraud from Enron Emails
 					      		</a>
 					  	  	</div> <!--project-->
@@ -98,17 +161,17 @@
 					  	</div><!--column-->
 					    <div class="col-sm-4">
 					    	<div class="project">
-					    		<a href="https://github.com/jkarakas/aipnd-project" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/aipnd-project/74539654/assets/inference_example.png" width= 200 height= 200 alt="aipnd-project"></a>
-					            <h3 class="project-title">Classify Images</h3>
-					      		<a class="project-description" href="https://github.com/jkarakas/aipnd-project" target="_blank">AI application that trains a neural network classifier and predicts new image classes using transfer learning with Pytorch and Numpy</a>
+					    		<a href="https://github.com/jkarakas/aipnd-project" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/aipnd-project/74539654/assets/inference_example.png" class="img-rounded project-img" height= 200 alt="aipnd-project"></a>
+<!-- 					            <h3 class="project-title">Classify Images</h3> -->
+					      		<a class="project-description" href="https://github.com/jkarakas/aipnd-project" target="_blank">Transfer learning classifier and new image-class predictor with Pytorch and Numpy</a>
 					      	</div> <!--project-->					
 					  	</div><!--column-->
 
 					    <div class="col-sm-4"> 	
 					    	<div class="project">
-					     		<a href="https://github.com/jkarakas/Generate-New-Faces-With-DCGAN/blob/master/dlnd_face_generation.ipynb" target="_blank"><img src="img/dcgan-project.png" width= 200 alt="DCGAN"></a>
-			              		<h3 class="project-title">Generate New Faces</h3>
-					      		<a class="project-description" href="https://github.com/jkarakas/Generate-New-Faces-With-DCGAN/blob/master/dlnd_face_generation.ipynb" target="_blank">Generate New Faces Using Deep Convolutional Generative Adversarial Networks and Tensor Flow</a>
+					     		<a href="https://github.com/jkarakas/Generate-New-Faces-With-DCGAN/blob/master/dlnd_face_generation.ipynb" target="_blank"><img src="img/dcgan-project.png" class="img-rounded project-img" alt="DCGAN"></a>
+<!-- 			              		<h3 class="project-title">Generate New Faces</h3> -->
+					      		<a class="project-description" href="https://github.com/jkarakas/Generate-New-Faces-With-DCGAN/blob/master/dlnd_face_generation.ipynb" target="_blank">Generate New Faces Using Deep Convolutional GANs and Tensor Flow</a>
 					  	  	</div> <!--project-->
 					    </div><!--column-->
 
@@ -119,24 +182,24 @@
 
 					    <div class="col-sm-4"> 	
 					    	<div class="project">
-					     		<a href="https://github.com/jkarakas/TV_Script-_Generation/blob/master/dlnd_tv_script_generation.ipynb" target="_blank"><img src="img/simpsons.png" width= 200 height= 200 alt="simpsons"></a>
-			              		<h3 class="project-title">Generate a new TVScript</h3>
-					      		<a class="project-description" href="https://github.com/jkarakas/TV_Script-_Generation/blob/master/dlnd_tv_script_generation.ipynb" target="_blank">Generate a new Simpson TV script using a Recurrent Neural Networks and Tensor Flow</a>
+					     		<a href="https://github.com/jkarakas/TV_Script-_Generation/blob/master/dlnd_tv_script_generation.ipynb" target="_blank"><img src="img/simpsons.png" class="img-rounded project-img" alt="simpsons"></a>
+<!-- 			              		<h3 class="project-title">Generate a new TVScript</h3> -->
+					      		<a class="project-description" href="https://github.com/jkarakas/TV_Script-_Generation/blob/master/dlnd_tv_script_generation.ipynb" target="_blank">Generate a new Simpsons TV script using a Recurrent Neural Networks and Tensor Flow</a>
 					  	  	</div> <!--project-->
 					    </div><!--column-->
 	
 					    <div class="col-sm-4">
 					    	<div class="project">
-					      		<a href="https://github.com/jkarakas/Language-Translation-with-a-Recurrent-Neural-Network-and-a-seq2seq-model/blob/master/dlnd_language_translation.ipynb" target="_blank"><img src="img/translate.jpg" width= 200 height= 200 alt="seq2seq-"></a>
-					      		<h3 class="project-title">Translate English to French</h3>
-					      		<a class="project-description" href="https://github.com/jkarakas/Language-Translation-with-a-Recurrent-Neural-Network-and-a-seq2seq-model/blob/master/dlnd_language_translation.ipynb" target="_blank">Translate from English to French with a Recurrent Neural Network and a seq2seq-model</a>
+					      		<a href="https://github.com/jkarakas/Language-Translation-with-a-Recurrent-Neural-Network-and-a-seq2seq-model/blob/master/dlnd_language_translation.ipynb" target="_blank"><img src="img/translate.jpg" class="img-rounded project-img" alt="seq2seq-"></a>
+<!-- 					      		<h3 class="project-title">Translate English to French</h3> -->
+					      		<a class="project-description" href="https://github.com/jkarakas/Language-Translation-with-a-Recurrent-Neural-Network-and-a-seq2seq-model/blob/master/dlnd_language_translation.ipynb" target="_blank">Translate from English to French with an RRNN and a seq2seq-model</a>
 					      	</div> <!--project-->
 					  	</div><!--column-->
 
 					    <div class="col-sm-4">
 					    	<div class="project">
-					      		<a href="https://ikb-onegraph-dashdemo.herokuapp.com/"target="_blank"><img src="img/dash-app.png" width= 200 height= 200 alt="dash-app"></a>
-					      		<h3 class="project-title">Deploy a Dash App</h3>
+					      		<a href="https://ikb-onegraph-dashdemo.herokuapp.com/"target="_blank"><img src="img/dash-app.png" class="img-rounded project-img" alt="dash-app"></a>
+<!-- 					      		<h3 class="project-title">Deploy a Dash App</h3> -->
 					      		<a class="project-description" href="https://ikb-onegraph-dashdemo.herokuapp.com/" target="_blank">Proof of Concept Dash app with a Pandas and Plotly backend deployed on Heroku</a>
 					      	</div> <!--project-->
 					  	</div><!--column-->

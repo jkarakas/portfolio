@@ -3,6 +3,7 @@ html body {
   color: #666756;
   background: #fff;
   padding-bottom: 70px;
+  background-image: rgb(211,211,211);
  }
 
 /*I  have no idea why I put that here*/
@@ -12,8 +13,8 @@ html body {
     display: block;
 }
 
-.navbar.navbar-default {
-	padding-top: 10px;
+.t {
+	padding-top: 80px;
 	border: none;
 	border-bottom: 3px solid #bbb;
 	-webkit-box-shadow: none;
@@ -47,27 +48,46 @@ html body {
 
 .photo-banner {
     background: url('../img/banner.png') fixed 100% 0;
-    height: 300px;
+    height: 110px;
     overflow: hidden;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.18) !important;
+    padding-bottom: 20px;
 }
 
 .featured-projects {
-	color: #bbb;
+	color: white;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 60px;
+	padding-left: 10px;
+	font-weight: 800;
 	text-align: left;
+	font-size: 1.8em;
 }
 
 .projects-row {
-   padding-bottom: 120px;
+   padding-top: 50px;
+   padding-bottom: 10px;
+
+}
+
+.row {
+   padding-bottom: 25px;
 
 }
 
 .project {
 	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.050);
+	height:  180px;
+	width: 370px;
+}
+.project-img {
+	float:left;
+	width: 40%;
+
+    max-height: 160px;
+    padding-top: 20px;
 }
 
 .project-title {
@@ -75,15 +95,40 @@ html body {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 1.5em;
+	padding-bottom: 5px;
+
+
 }
 
 .project-description {
-	font-size: 1.100em;
-	color: #666756;
+
+	position: absolute;
+    top: 12%;
+    left: 45%;
+    bottom: 15%;
+/*    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;*/
+
+	overflow: hidden;
+    text-align: center;
+/*	position: relative;*/
+    min-height: 1px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-bottom: : 30px;
+	font-size: 1.300em;
+	color: 		#666756;
+	font-weight: 500;
+/*	color: rgb(102, 153, 255);*/
+/*	padding-top: 30px;*/
+/*	margin-left: 15px;
+	margin-right: 15px;*/
+
 }
 
 .footer {
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 1.343em;
   font-weight: 500;	
   text-align: center;
