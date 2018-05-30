@@ -12,6 +12,10 @@ html body {
  div {
     display: block;
 }
+.navbar-brand {
+  width:  100px;
+      overflow: hidden;
+}
 
 .t {
 	padding-top: 80px;
