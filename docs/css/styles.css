@@ -161,7 +161,12 @@ html body {
 
 	.project {
 		transform: scale(0.8);
+		margin-bottom: 5px;
 	}
+	.projects-row {
+        margin-bottom: 5px;
+
+}
 }
 
 @media only screen and (max-width: 996px) {
@@ -210,24 +215,25 @@ html body {
 
 
 	.project {
+		transform: scale(1.05);
 		text-align: center;
 		padding-top: 10px;
-		padding-bottom: 10px;
+		margin-bottom: 30px;
 	}
 
 	.projects-row {
-        padding-bottom: 0px;
+        margin-bottom: 20px;
 
 }
 	
-	.project-img {
+/*	.project-img {
 		    padding-top: 0px;
 			transform: scale(0.8);
 	}
 
 	.project-description {
 			transform: scale(0.9);
-			    left: 55%;
+			    left: 55%;*/
 	}
 
 	.logo {
