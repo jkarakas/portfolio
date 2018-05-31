@@ -27,6 +27,16 @@ html body {
     height: 52px;
 }
 
+/*The color of navbar links*/
+a {
+	color: #c7d1d8;
+}
+
+/*The color of navar burger*/
+.navbar-toggle .icon-bar {
+    background-color: #c7d1d8;
+}
+
 .t {
 	padding-top: 80px;
 	border: none;
@@ -197,7 +207,7 @@ html body {
 
 	.social-icons {
 		transform: scale(0.5);
-		text-align: left;
+		float: left;
 	}
 
 
