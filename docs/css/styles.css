@@ -37,8 +37,8 @@ a {
     background-color: #c7d1d8;
 }
 
-.t {
-	padding-top: 80px;
+.title-row {
+	padding-top: 75px;
 	border: none;
 	border-bottom: 3px solid #bbb;
 	-webkit-box-shadow: none;
@@ -55,10 +55,12 @@ a {
 }
 
 .text-thin {
+    color: #283e4a;
 	font-weight: 100;
 }
 
 .description {
+	color: #283e4a;
 	margin: 5px;
 	font-size: 1.429em;
 	text-align: right;
@@ -66,7 +68,8 @@ a {
 	}
 
 .nav-wrapper {
-    float: right;		
+    float: right;
+    color: #283e4a;		
 }
 
 
@@ -131,9 +134,10 @@ a {
     padding-top: 20px;
     padding-right: 20px;
     margin-bottom: : 30px;
-	font-size: 1.300em;
-	color: 		#666756;
-	font-weight: 500;
+	font-size: 1.250em;
+	color: #304e5f;
+/*	color: #666756;*/
+	font-weight: 450;
 /*	color: rgb(102, 153, 255);*/
 /*	padding-top: 30px;*/
 /*	margin-left: 15px;
