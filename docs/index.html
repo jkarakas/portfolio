@@ -137,11 +137,24 @@
 				    
 <!-- 					</header> -->
 					<h3 class="featured-projects">Featured Work</h3>
+					<div id="myBtnContainer">
+					  <button class="btn filer-btn  active" onclick="filterSelection('all')"> Show all</button>
+					  <button class="btn filer-btn" onclick="filterSelection('python')"> Python</button>
+					  <button class="btn filer-btn" onclick="filterSelection('rlang')"> R</button>
+					  <button class="btn filer-btn" onclick="filterSelection('sql')"> SQL</button>
+					  <button class="btn filer-btn" onclick="filterSelection('tableau')"> Tableau</button>
+					  <button class="btn filer-btn" onclick="filterSelection('viz')"> Data Visualization</button>
+					  <button class="btn filer-btn" onclick="filterSelection('ml')"> Machine Learning</button>
+					  <button class="btn filer-btn" onclick="filterSelection('dl')"> Deep Learning</button>
+					  <button class="btn filer-btn" onclick="filterSelection('app')"> Application</button>
+					  <button class="btn filer-btn" onclick="filterSelection('rep')"> Report</button>
+
+					</div>
 
 
 					  <div class="row projects-row">
 
-					    <div class="col-sm-4">
+					    <div class="col-sm-4 python sql app rep">
 					    	<div class="project">
 <!-- 					    		<h3 class="project-title">Wrangle OpenStreetMap Data</h3> -->
 					    		<a  href="https://github.com/jkarakas/Wrangle-OpenStreetMaps-Data-with-SQL" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Wrangle-OpenStreetMaps-Data-with-SQL/ea059bfe/Metro-Extracts_Warsaw.png"  class="img-rounded project-img" alt="Metro-Extracts_Warsaw"></a>
@@ -150,7 +163,7 @@
 					      	</div> <!--project-->
 					  	</div><!--column-->
 
-					    <div class="col-sm-4">
+					    <div class="col-sm-4 rlang rep viz">
 					    	<div class="project">
 					      		<a href="https://github.com/jkarakas/Explore-and-Summarize-Data" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Explore-and-Summarize-Data/7f99d0ba/map.png" class="img-rounded project-img" alt="map viz"></a>
 <!-- 					      		<h3 class="project-title">Explore E-commerce Data</h3> -->
@@ -158,7 +171,7 @@
 					      	</div> <!--project-->
 					  	</div><!--column-->
 
-					  	    <div class="col-sm-4">
+					  	    <div class="col-sm-4 tableau viz">
 					    	<div class="project">
 					    		<a href="https://public.tableau.com/profile/ioanniskbreier#!/vizhome/who_life_expect_story_final/EuropeanStory" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/Create-a-Tableau-Story-/cc205e05/screenshots/version4.png" class="img-rounded project-img" alt="Tableau-Project_Warsaw"></a>
 <!-- 					            <h3 class="project-title">Visualize Life Expectancy </h3> -->
@@ -170,7 +183,7 @@
 
 
 					  	<div class="row">
-						<div class="col-sm-4"> 
+						<div class="col-sm-4 python ml rep"> 
 					    	<div class="project">
 					     		<a  href="https://github.com/jkarakas/Identify-Fraud-from-Enron-Email" target="_blank"><img src="https://camo.githubusercontent.com/8f1273d7c412d9d41a799cc97ffc5a7c7481970b/68747470733a2f2f63646e2e746563686e6f6c6f67797265766965772e636f6d2f692f696d616765732f656e726f6e783239392e6a70673f73773d363830" class="img-rounded project-img" alt="Enron"></a>
 <!-- 			              		<h3 class="project-title">Detect Fraud</h3> -->
@@ -179,7 +192,7 @@
 					  	  	</div> <!--project-->
 
 					  	</div><!--column-->
-					    <div class="col-sm-4">
+					    <div class="col-sm-4 python dl app">
 					    	<div class="project">
 					    		<a href="https://github.com/jkarakas/aipnd-project" target="_blank"><img src="https://cdn.rawgit.com/jkarakas/aipnd-project/74539654/assets/inference_example.png" class="img-rounded project-img" height= 200 alt="aipnd-project"></a>
 <!-- 					            <h3 class="project-title">Classify Images</h3> -->
@@ -187,7 +200,7 @@
 					      	</div> <!--project-->					
 					  	</div><!--column-->
 
-					    <div class="col-sm-4"> 	
+					    <div class="col-sm-4 python dl"> 	
 					    	<div class="project">
 					     		<a href="https://github.com/jkarakas/Generate-New-Faces-With-DCGAN/blob/master/dlnd_face_generation.ipynb" target="_blank"><img src="img/dcgan-project.png" class="img-rounded project-img" alt="DCGAN"></a>
 <!-- 			              		<h3 class="project-title">Generate New Faces</h3> -->
@@ -200,7 +213,7 @@
 
 					  <div class="row "> <!--Not adding a margin to the last row to keep the social icons closer-->
 
-					    <div class="col-sm-4"> 	
+					    <div class="col-sm-4 python dl"> 	
 					    	<div class="project">
 					     		<a href="https://github.com/jkarakas/TV_Script-_Generation/blob/master/dlnd_tv_script_generation.ipynb" target="_blank"><img src="img/simpsons.png" class="img-rounded project-img" alt="simpsons"></a>
 <!-- 			              		<h3 class="project-title">Generate a new TVScript</h3> -->
@@ -208,7 +221,7 @@
 					  	  	</div> <!--project-->
 					    </div><!--column-->
 	
-					    <div class="col-sm-4">
+					    <div class="col-sm-4 python dl">
 					    	<div class="project">
 					      		<a href="https://github.com/jkarakas/Language-Translation-with-a-Recurrent-Neural-Network-and-a-seq2seq-model/blob/master/dlnd_language_translation.ipynb" target="_blank"><img src="img/translate.jpg" class="img-rounded project-img" alt="seq2seq-"></a>
 <!-- 					      		<h3 class="project-title">Translate English to French</h3> -->
@@ -216,7 +229,7 @@
 					      	</div> <!--project-->
 					  	</div><!--column-->
 
-					    <div class="col-sm-4">
+					    <div class="col-sm-4 python app viz">
 					    	<div class="project">
 					      		<a href="https://ikb-onegraph-dashdemo.herokuapp.com/"target="_blank"><img src="img/dash-app.png" class="img-rounded project-img" alt="dash-app"></a>
 <!-- 					      		<h3 class="project-title">Deploy a Dash App</h3> -->
@@ -230,6 +243,7 @@
 					</div><!--projects-->
 			</main>
 		</div><!--container-->
+	   <script src="js/filter.js"></script>
 	</body>
 </html>
 

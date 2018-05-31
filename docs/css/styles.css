@@ -137,11 +137,44 @@ a {
 
 }
 
-
 .social-icons {
 	float: right;
 	transform: scale(0.55);
 }
+
+/*Filter stuff*/
+#myBtnContainer {
+	padding-bottom: 20px;
+}
+.col-sm-4 {
+    display: none; /* Hide all elements by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.filer-btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.filter-btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.filter-btn.active {
+  background-color: white;
+   color: white;
+}
+
 
 @media only screen and (max-width: 1200px) {
 
