@@ -156,7 +156,7 @@ a {
 }
 
 /* Style the buttons */
-.filter-btn {
+#filter-btn {
   border: none;
   outline: none;
   padding: 12px 16px;
@@ -165,7 +165,7 @@ a {
 }
 
 /* Add a grey background color on mouse-over */
-.filter-btn:hover {
+#filter-btn:hover {
   background-color: #ddd !important;
 }
 
