@@ -157,8 +157,11 @@ a {
 
 /* Style the buttons */
 #filter-btn {
+/*  border: 0.3px solid #304e5f;*/
   border: none;
-  outline: none;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,0.02), 0 2px 5px 0 rgba(0,0,0,0.019);
+  color: #304e5f;
+  outline: 0.5px;
   padding: 12px 16px;
   background-color: white !important;
   cursor: pointer;
@@ -169,6 +172,12 @@ a {
   background-color: #ddd !important;
 }
 
+/* Add a dark background color to the active button */
+#filter-btn.active {
+/*  background-color: #666;*/
+	box-shadow: 0 4px 2px 0 rgba(0,0,0,0.08), 0 4px 10px 0 rgba(0,0,0,0.08);
+    color: #283e4a;
+}
 
 
 
