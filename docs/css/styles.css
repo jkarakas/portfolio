@@ -14,7 +14,10 @@ html body {
 }
 
 #menu {
-	transform: scale(1.6)
+	font-size: 25px;
+/*    color: #fff;*/
+/*    width: 5%;*/
+/*    cursor: pointer;*/
 }
 /*.n {
  	line-height: 18px;
